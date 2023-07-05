@@ -1,8 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
     javascript,
     typescript,
     html,
@@ -13,16 +9,8 @@ import {
     nodejs,
     mongodb,
     git,
-    figma,
     docker,
-    meta,
     starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
-    threejs,
     netflix,
     news,
     ai,
@@ -89,60 +77,29 @@ const technologies = [
         icon: javascript,
     },
     {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
         name: "React JS",
         icon: reactjs,
-    },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
     },
     {
+        name: "TypeScript",
+        icon: typescript,
+    },
+    
+    {
+        name: "Redux Toolkit",
+        icon: redux,
+    },
+    {
         name: "Node JS",
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
-    },
-    {
-        name: "git",
-        icon: git,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
-    {
         name: "Python",
         icon: python,
-    },
-    {
-        name: "Linux",
-        icon: linux,
-    },
-    {
-        name: ". Net",
-        icon: net,
-    },
-    {
-        name: "kubernetes",
-        icon: kubernetes,
-    },
-    {
-        name: "Docker",
-        icon: docker,
-    },
-    {
-        name: "AWS",
-        icon: aws,
     },
     {
         name: "Django",
@@ -151,6 +108,14 @@ const technologies = [
     {
         name: "MySql",
         icon: sql,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
+    },
+    {
+        name: "git",
+        icon: git,
     },
 ];
 
