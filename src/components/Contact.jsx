@@ -31,11 +31,11 @@ const Contact = () => {
 
         emailjs
             .send(
-                "service_3weuztc",
+                "service_b8k4rtt",
                 "template_3jznjfs",
                 {
                     from_name: form.name,
-                    to_name: "Sooraj",
+                    to_name: "Visakh",
                     from_email: form.email,
                     to_email: "me@visakhsr.com",
                     message: form.message,
