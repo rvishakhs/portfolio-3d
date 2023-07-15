@@ -9,9 +9,6 @@ import {
     nodejs,
     mongodb,
     git,
-    docker,
-    starbucks,
-    netflix,
     news,
     ai,
 } from "../assets";
@@ -28,6 +25,12 @@ import bez from "../assets/bez.jpg";
 import theo from "../assets/theo.jpg";
 import sooraj from "../assets/sooraj.jpg";
 import parpella from "../assets/parpella.png";
+import gama from "../assets/gama.png";
+import eshoppers from "../assets/fullstack.png";
+import jordanstore from "../assets/jordanstore.png";
+import adminpanel from "../assets/adminpanel.png";
+import docker from "../assets/docker.png";
+
 
 export const navLinks = [
     {
@@ -121,34 +124,31 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Junior Mern Stack Developer",
-        company_name: "Allianz Technology",
-        icon: starbucks,
+        title: "React Developer",
+        company_name: "Gama Security Solutions",
+        icon: gama,
         iconBg: "#383E56",
-        date: "August 2021 - April 2023",
+        date: "Jan 2023 - present",
         points: [
-            `Spearheaded the development of a dynamic web
-            application utilizing MERN stack technology, resulting in a
-            30% increase in user engagement and retention`,
-            `Implemented a robust backend system using Node.js and
-            MongoDB, allowing for seamless data management and
-            efficient processing of user requests`,
-            `Developed an intuitive user interface using React.js and
-            Recoil, resulting in a 25% decrease in user bounce rate
-            and increased customer satisfaction
+            `Developed intuitive UI with React.js and Recoil, reducing 
+            bounce rate by 25% and increasing customer satisfaction.`,
+            `Improved website performance by optimizing database 
+            and query efficiency, resulting in 20% faster 
+            loading and better user experience.`,
+            `Optimized front-end performance by integrating caching
+             mechanisms, leading to an increase in page load speed by an average of 50%.
             `,
-            `Optimized website performance through effective
-           database design and query optimization, resulting in a
-           20% increase in website loading speed and improved
-           overall user experience
-           `,
+            `Designed a flexible routing system using React and Next.js, 
+            allowing for easy navigation between different pages and sections 
+            of the application, leading to a decrease in bounce rate by 20%.
+            `,
         ],
     },
     {
         title: "Frontend Developer",
         company_name: "Parpella Pvt Ltd",
         icon: parpella,
-        iconBg: "#E6DEDD",
+        iconBg: "#383E56",
         date: "February 2018 - june 2020",
         points: [
             `Built and deployed responsive, cross-browser compatible
@@ -194,8 +194,8 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Netflix Clone",
-        description: `The Netflix clone boasts optimized performance with Next.js and React, server-side rendering for faster loading times, and a user-friendly interface for easy access to favorite movies and TV shows. API integration enables convenient title searches, providing a seamless streaming experience that retains user engagement.Overall, this Netflix clone delivers a top-notch experience.`,
+        name: "Full Stack Ecommerce ",
+        description: `Overall, I am proud of my contributions in designing the database schema, leading the MERN project, developing the backend API, and implementing user authentication and authorization features. I developed the backend RESTful API using Express and Node.js. This ensured that data could be transmitted efficiently and accurately.`,
         tags: [
             {
                 name: "react",
@@ -206,12 +206,17 @@ const projects = [
                 color: "green-text-gradient",
             },
             {
+                name: "node.js",
+                color: "green-text-gradient",
+            },
+            {
                 name: "tailwind",
                 color: "pink-text-gradient",
             },
         ],
-        image: netflix,
-        source_code_link: "https://github.com/",
+        image: eshoppers,
+        source_code_link: "https://eshoppersedu.netlify.app/",
+        github_code_link: "https://github.com/rvishakhs/Ecommerce-build",
     },
     {
         name: "Live News",
@@ -233,7 +238,8 @@ const projects = [
             },
         ],
         image: news,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://news-app-rsoorajs.vercel.app/",
+        github_code_link: "https://github.com/rvishakhs/news-app.git",
     },
     {
         name: "AI Image Generator",
@@ -254,6 +260,82 @@ const projects = [
         ],
         image: ai,
         source_code_link: "https://github.com/",
+        github_code_link: "https://github.com/",
+    },
+    {
+        name: "Jordan Store",
+        description: ` The combination of React, Next.js, Stripe Payment gateway, and sanity CMS resulted in a highly functional and user-friendly application that delivered a flawless user experience and streamlined product updates. To enhance the e-commerce functionality, I integrated the Stripe Payment gateway, enabling seamless and secure online transactions for customers.`,
+        tags: [
+            {
+                name: "tailwind",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "strapi",
+                color: "green-text-gradient",
+            },
+            {
+                name: "stripe",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: jordanstore,
+        source_code_link: "jordan-store-final-build-mf48fch0z-srvishakh-gmailcom.vercel.app",
+        github_code_link: "https://github.com/rvishakhs/JordanStore-Final-Build.git",
+    },
+    {
+        name: "Eshoppers Admin Panel ",
+        description: `The admin dashboard designed and implemented the database schema using MongoDB, ensuring efficient data storage and retrieval for our application. It was important to optimize the schema to handle our data effectively. Developed the backend RESTful API using Express and Node.js, enabling seamless communication between the client and server.`,
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "redux",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Ant-charts",
+                color: "green-text-gradient",
+            },
+            {
+                name: "formik",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: adminpanel,
+        source_code_link: "https://github.com/",
+        github_code_link: "https://github.com/rvishakhs/ecommerce-admin.git",
+    },
+    {
+        name: "Containerization of Microservices",
+        description: `I have gained expertise in container orchestration using Kubernetes. I have designed and installed Kubernetes clusters, effectively managing resources and optimizing workload distribution. I have also utilized Kubernetes for running jobs and deploying pods, ensuring efficient execution and scaling of containerized applications.`,
+        tags: [
+            {
+                name: "Docker",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "AWS",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Kubernetes",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Jenkins",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: docker,
+        source_code_link: "https://github.com/",
+        github_code_link: "https://github.com/rvishakhs/vprofile-project.git",
     },
 ];
 
